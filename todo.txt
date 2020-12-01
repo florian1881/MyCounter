@@ -1,0 +1,4 @@
+Document all variables expected in js 
+Add more fonctionnality (ex : sound that tell the countdown is over > private projet has this fonctionality)
+change bootstrap > tailwind 
+purge tailwinds css
