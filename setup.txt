@@ -1,0 +1,21 @@
+ install node
+ npx tailwindcss -o tailwind.css
+ integrate the new created file on the index.html file
+ 
+ Using component 
+ ===============
+
+ add a new css file 
+ write inside : 
+---------------------------------------------------------------
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-blue-600 text-white rounded;
+  }
+}
+---------------------------------------------------------------
+add the file to index.html

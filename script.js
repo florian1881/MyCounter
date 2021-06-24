@@ -17,11 +17,13 @@ function start() {
 }
 
 function count() {
-    counter--;
-    if (counter == 0) finish();
-    else {
-        document.getElementById("bip").innerHTML = counter;
-    }
+    if (counter == 0) {
+        finish();
+        return
+    };
+    counter--;   
+    document.getElementById("bip").innerHTML = counter;
+    
 }
 
 function finish() {
